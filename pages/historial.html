@@ -36,11 +36,14 @@
     <section class="history-records">
       <div class="record-card">
         <h3>Juan Pérez</h3>
-        <div class="record-details">
+        <form class="record-details">
           <p><strong>Esta semana:</strong> 245 kg</p>
           <p><strong>Este mes:</strong> 980 kg</p>
           <p><strong>Total:</strong> 3,450 kg</p>
-        </div>
+          <input type="number" placeholder="Kilos recolectados" required>
+          <input type="datetime-local" name="fecha" id="fecha" required>
+          <button type="submit">Guardar</button>
+        </form>
       </div>
 
       <div class="record-card">
