@@ -1,0 +1,95 @@
+/* Estilos específicos para la página de precios */
+
+.current-price {
+  margin: 20px 0;
+}
+
+.price-display {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-tertiary));
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.price-display h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.price-large {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.price-unit {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 15px;
+}
+
+.price-date {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+/* Price History */
+.price-history {
+  margin-top: 20px;
+}
+
+.price-history h3 {
+  font-size: 18px;
+  color: var(--color-oscuro);
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+
+.price-record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.price-record-date {
+  font-size: 14px;
+  color: var(--color-tertiary);
+}
+
+.price-record-amount {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-oscuro);
+}
+
+/* Price Info */
+.price-info {
+  margin-top: 20px;
+}
+
+.info-box {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.info-box h4 {
+  font-size: 16px;
+  color: var(--color-oscuro);
+  margin-bottom: 8px;
+}
+
+.info-box p {
+  font-size: 13px;
+  color: #856404;
+  margin: 5px 0;
+}

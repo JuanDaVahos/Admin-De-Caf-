@@ -1,0 +1,52 @@
+/* Estilos específicos para la página de historial */
+
+.history-records {
+  display: grid;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.record-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid var(--color-tertiary);
+}
+
+.record-card h3 {
+  font-size: 18px;
+  color: var(--color-oscuro);
+  margin-bottom: 12px;
+}
+
+.record-details p {
+  font-size: 14px;
+  color: var(--color-tertiary);
+  margin: 8px 0;
+}
+
+.record-details strong {
+  color: var(--color-oscuro);
+}
+
+/* Summary Box */
+.summary-box {
+  background-color: var(--color-secondary);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.summary-box h3 {
+  font-size: 20px;
+  color: var(--color-oscuro);
+  margin-bottom: 12px;
+}
+
+.summary-box p {
+  font-size: 14px;
+  color: white;
+  margin: 8px 0;
+}

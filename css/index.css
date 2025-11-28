@@ -1,0 +1,35 @@
+/* Estilos específicos para la página de inicio */
+
+.info-page {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+  background-color: var(--color-secondary);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.info-page h2 {
+  font-size: 20px;
+  color: var(--color-oscuro);
+}
+
+.info-page p {
+  font-size: 14px;
+  color: var(--color-tertiary);
+}
+
+.info-page ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.info-page ul li {
+  font-size: 14px;
+  color: var(--color-oscuro);
+  list-style: disc;
+}
